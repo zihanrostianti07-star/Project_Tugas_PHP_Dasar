@@ -27,13 +27,13 @@ a { display: inline-block; background-color: #0d4eea; color: white; padding: 9px
 <body>
 <h3>Detail Mahasiswa</h3>
 <ul>
-<li>NIM : <?= $_GET["nim"] ?></li>
-<li>Nama : <?= $_GET["nama"] ?></li>
-<li>Jurusan : <?= $_GET["jurusan"] ?></li>
-<li>Email : <?= $_GET["email"] ?></li>
-<li>Nilai : <?= $_GET["nilai"] ?></li>
-<li>Grade : <?= $_GET["grade"] ?></li>
-<li>Status : <?= $_GET["status"] ?></li>
+    <li>NIM : <?= $_GET["nim"] ?></li>
+    <li>Nama : <?= $_GET["nama"] ?></li>
+    <li>Jurusan : <?= $_GET["jurusan"] ?></li>
+    <li>Email : <?= $_GET["email"] ?></li>
+    <li>Nilai : <?= $_GET["nilai"] ?></li>
+    <li>Grade : <?= $_GET["grade"] ?></li>
+    <li>Status : <?= $_GET["status"] ?></li>
 </ul>
 <a href="index.php">Kembali</a>
 </body>
